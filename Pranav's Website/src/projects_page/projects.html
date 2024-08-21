@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles_2.css">
+    <link href="https://fonts.cdnfonts.com/css/phetsarath" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class = "main"> 
+        <div class="header">
+            <div><a href = "../index.html">About</a></div>
+            <div>Projects</div>
+            <div><a href = "../ratings_page/ratings.html">Portfolio 🔒</a></div>
+        </div>
+        <div class = "stage">
+        <div class = "container-projects">
+            <div class = "project_image" id = "gitlet">
+                <div class = "img_container">
+                    <img src = "../../assets/Gitlit_logo.png" height ="200" width = "200">
+                </div>
+            </div>
+            <div class = "description_container" id = "gitlet">
+                <h2>Gitlet</h2>
+                <h3>Berkeley</h3>
+                <p>Implemented my own version-control system that mimics the basic features of Git including init, add, commit, rm, log, global-log, find, status, checkout, branch, rm-branch, reset, and merge. The internal structure of the software included blobs (saved content of the files), trees (directory structures mapping names to references to blobs and other trees), and commits (combinations of log messages, other metadata (commit date, author, etc.), a reference to a tree, and references to parent commits). Used cryptographic hash functions like SHA-1, serialization, directory manipulation, graph traversals, and integration tests. The application was built with Java.</p>
+            </div>
+            <div class = "project_image" id = "si">
+                <div class = "img_container"><img src = "../../assets/Scheme_Interpreter.png" height ="200" width = "200"> </div>
+            </div>
+            <div class = "description_container" id = "si">
+                <h2>Scheme Interpreter</h2>
+                <h3>Berkeley</h3>
+                <p>Implemented a Scheme interpreter built with Python. Using the REPL (read, evaluate, print, loop) method, the scheme code is first parsed through lexical and syntactic analysis using mutually recursive functions. Then the next step is the evaluation of the tokenized input and calling specific functions depending on the code. The obtained value is then printed and the loop continues allowing for the user to enter in another line of Scheme code.</p>
+            </div>
+            <div class = "project_image" id = "cb">
+                <div class = "img_container"><img src = "../../assets/chat.png" height ="200" width = "200"> </div>
+            </div>
+            <div class = "description_container" id = "cb">
+
+                <h2>brOSKI</h2>
+                <h3>CalHacks 2023</h3>
+                <p>brOSKI is a chatbot engineered to emulate a UC Berkeley student, offering guidance through campus life by tapping into the collective intelligence of the Berkeley Subreddit. It navigates Reddit's API restrictions by delving into Pushshift's 20TB archive, extracting 150GB of r/Berkeley posts. This targeted approach, initially omitting comments, later integrated them through post ID queries. The chatbot's core, powered by the fine-tuned LLaMA 2 13b model with 3500 Q&A samples, was meticulously optimized for authentic, unbiased interactions. While the full-fledged web interface is forthcoming, the current front end, designed with Figma and implemented with HTML and CSS, connects seamlessly to the backend via API, establishing a digital embodiment of a Berkeley student advisor.</p>
+                
+            </div>
+            <div class = "project_image" id = "water">
+                <div class = "img_container">
+                    <img src = "../../assets/water.png" height ="150" width = "150">
+                </div>
+            </div>
+            <div class = "description_container" id = "water">
+                <h2>Project Water</h2>
+                <h3>Datathon For Social Good 2022 - Winner</h3>
+                <p>The impact of legislative policies addressing water consumption in drought-prone California was assessed to understand the role of public policies in resource management. Large datasets, comprising over 40,000 entries, were modeled to test whether the median potable water consumption in each Californian county reduced by at least 15% between 2020 and 2022, in line with the targets set by Executive Order N-10-21. Data visualizations were generated to identify trends in confounding variables such as potable water production. Statistical tests, including sharp null hypothesis testing (A/B testing), were conducted to create metrics, and outlier analysis was performed to establish baselines.</p>
+               
+            </div>
+        </div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
